@@ -32,12 +32,12 @@ end
 def find_a(array)
   counter = 0
   specific_array = []
-  while counter < array.length 
+  while counter < array.length
     array.each do |word|
     specific_array << word.starts_with?('a')
     counter += 1
   end
-specific_array
+  specific_array
 end
 
 
