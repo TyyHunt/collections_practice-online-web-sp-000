@@ -37,7 +37,7 @@ def find_a(array)
     specific_array << word.start_with?('a')
     counter += 1
   end
-  specific_array
+  return specific_array
 end
 
 
